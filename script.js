@@ -4,6 +4,8 @@ const messages = [
 
 function generateRandomNotifications() {
   const notificationCount = 100;
+  const audio = new Audio('nhac.mp3');
+  audio.play();
 
   for (let i = 0; i < notificationCount; i++) {
     setTimeout(() => {
